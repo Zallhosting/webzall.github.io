@@ -1,2 +1,3 @@
 # webzall.github.io
-mew web zallkaltim clone
+new web zallkaltim clone
+by IDN KALTIM
