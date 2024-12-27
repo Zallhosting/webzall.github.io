@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video HD Sederhana</title>
+    <style>
+        /* Reset margin dan padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body background dan font */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000; /* Warna latar belakang hitam */
+            color: #fff; /* Warna teks putih */
+            text-align: center;
+        }
+
+        /* Judul */
+        h1 {
+            margin-top: 20px;
+            color: #FF0000; /* Warna merah */
+        }
+
+        p {
+            color: #ccc; /* Warna teks abu-abu terang */
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        /* Container video */
+        .video-container {
+            max-width: 90%;
+            margin: 0 auto;
+            position: relative;
+            overflow: hidden;
+            background-color: #000;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+        }
+
+        /* Pemutar video */
+        video {
+            width: 100%;
+            height: auto;
+        }
+
+        /* Tombol unduh */
+        .download-button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 20px;
+            background-color: #FF0000; /* Warna merah */
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+
+        .download-button:hover {
+            background-color: #d50000; /* Warna merah lebih gelap saat hover */
+        }
+
+        /* Footer */
+        footer {
+            margin-top: 40px;
+            font-size: 14px;
+            color: #aaa;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Selamat datang di Website Video HD!</h1>
+    <p>Menonton dan mengunduh video berkualitas tinggi.</p>
+
+    <!-- Container untuk video -->
+    <div class="video-container">
+        <video controls>
+            <source src="video-anda.mp4" type="video/mp4">
+            Browser Anda tidak mendukung tag video.
+        </video>
+    </div>
+
+    <!-- Tombol unduh video -->
+    <a href="video-anda.mp4" download class="download-button">Unduh Video</a>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Video HD Sederhana</p>
+    </footer>
+
+</body>
+</html>
